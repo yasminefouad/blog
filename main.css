@@ -161,6 +161,10 @@ p {
     margin-top: 15px;
 }
 
+.related {
+    display: inline-block;
+}
+
 .tags .related img {
     margin-top: 15px;
 }
@@ -177,8 +181,8 @@ p {
 
 .tags .related div {
     float: right;
-    margin-right: 120px;
     max-width: 500px;
+    margin-left: 20px;
 }
 
 footer {
@@ -208,4 +212,3 @@ footer img {
     margin-right: auto;
     margin-left: auto;
 }
-

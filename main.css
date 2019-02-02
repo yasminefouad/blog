@@ -161,10 +161,6 @@ p {
     margin-top: 15px;
 }
 
-.related {
-    display: inline-block;
-}
-
 .tags .related img {
     margin-top: 15px;
 }
@@ -176,13 +172,6 @@ p {
 .tags .related h3 {
     font-size: 23px;
     font-weight: 400;
-    margin: 5px 0;
-}
-
-.tags .related div {
-    float: right;
-    max-width: 500px;
-    margin-left: 20px;
 }
 
 footer {

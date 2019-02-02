@@ -6,10 +6,7 @@
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
-}
-
-html {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 h1 {
@@ -22,7 +19,8 @@ h3 {
 
 p {
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 400;
+    line-height: 32px;
 }
 
 .burble {
@@ -30,7 +28,7 @@ p {
 }
 
 .bold {
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .clearfix:before,
@@ -41,7 +39,7 @@ p {
 }
 
 .container {
-    max-width: 82%;
+    max-width: 75%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -76,7 +74,7 @@ p {
 }
 
 .navActions a img.menuIcon {
-    height: 19px;
+    height: 18px;
 }
 
 .right {
@@ -85,9 +83,9 @@ p {
 
 .imageSection:before {
     content: "";
-    width: 80%;
-    height: 80vh;
-    left: 10%;
+    width: 75%;
+    height: 75vh;
+    left: 12%;
     position: relative;
     background-image: url(images/cover.svg);
     display: block;
@@ -107,6 +105,7 @@ p {
     position: absolute;
     bottom: 60px;
     left: 10%;
+    max-width: 600px;
 }
 
 .blogPostInfo h1,
@@ -120,6 +119,8 @@ p {
     margin-bottom: 16px;
     margin-left: -8%;
     color: #DB1686;
+    display: inline-block;
+    padding-right: 30px;
 }
 
 .blogPostInfo .Info {
@@ -127,55 +128,41 @@ p {
     color: white;
 }
 
-.description {
-    margin-top: 60px;
-    margin-left: 10px;
-}
-
 .description img {
     float: right;
     width: 120px;
-    margin-top: 5px;
     margin-right: 20px;
 }
 
-.articles {
-    margin-top: 310px;
-}
-
 .articles div {
-    margin-top: 80px;
+    margin-top: 30px;
 }
 
 .articles p {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .articles img {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .tags div {
-    margin-top: 80px;
+    margin-top: 30px;
 }
 
 .tags .tagsWords span {
     background-color: #D8D8D8;
     border-radius: 25px;
-    padding: 5px 30px;
+    padding: 5px 25px;
     margin-right: 10px;
 }
 
 .tags .tagsWords #tags {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .tags .related img {
-    margin-top: 30px;
-}
-
-.tags .related #title {
-    font-size: 26px;
+    margin-top: 15px;
 }
 
 .tags .related #title {
@@ -190,15 +177,15 @@ p {
 
 .tags .related div {
     float: right;
-    margin-right: 200px;
-    margin-top: 45px;
+    margin-right: 120px;
+    max-width: 500px;
 }
 
 footer {
-    margin-top: 80px;
     background: #F9F9F9;
     height: 100px;
     line-height: 56px;
+    margin-top: 80px;
 }
 
 footer p {
@@ -209,3 +196,16 @@ footer img {
     float: right;
     margin-top: -40px;
 }
+
+.articles h1,
+.articles p,
+.description h1,
+.description p,
+.articles img,
+.description img {
+    max-width: 900px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+

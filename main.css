@@ -27,10 +27,6 @@ p {
     color: #DB1686;
 }
 
-.bold {
-    font-weight: 700;
-}
-
 .clearfix:before,
 .clearfix:after {
     content: "";
@@ -134,7 +130,7 @@ p {
     margin-right: 20px;
 }
 
-.articles div {
+.articles .articleTitle {
     margin-top: 30px;
 }
 
@@ -143,11 +139,7 @@ p {
 }
 
 .articles img {
-    margin-top: 20px;
-}
-
-.tags div {
-    margin-top: 30px;
+    margin-top: 6px;
 }
 
 .tags .tagsWords span {
@@ -161,17 +153,8 @@ p {
     margin-top: 15px;
 }
 
-.tags .related img {
-    margin-top: 15px;
-}
-
 .tags .related #title {
     font-size: 26px;
-}
-
-.tags .related h3 {
-    font-size: 23px;
-    font-weight: 400;
 }
 
 footer {
@@ -196,8 +179,28 @@ footer img {
 .description p,
 .articles img,
 .description img {
-    max-width: 900px;
+    max-width: 750px;
     display: block;
     margin-right: auto;
     margin-left: auto;
+}
+
+.related .wrapper .smallImage {
+    width: 30%;
+    display: inline-block;
+}
+
+.related .wrapper .smallTitle {
+    width: 65%;
+    float: right;
+    margin-right: 2.5%;
+    margin-top: 1%;
+}
+
+.related {
+    margin-top: 30px;
+}
+
+.related h1 {
+    margin-bottom: 10px;
 }
